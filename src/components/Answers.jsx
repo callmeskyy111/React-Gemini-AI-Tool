@@ -9,7 +9,7 @@ function Answers({ ans, idx, totalResults, type }) {
     if (checkHeading(ans)) {
       setHeading(true);
       setAnswer(replaceHeadingStars(ans)); // Fixed
-      console.log("Index: ", idx);
+      //console.log("Index: ", idx);
     }
   }, [ans, idx]); // Fixed Dependencies
 
